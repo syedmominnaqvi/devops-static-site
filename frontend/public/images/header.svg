@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a86ff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#ff006e" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="card-gradient-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a86ff" />
+      <stop offset="100%" stop-color="#4361ee" />
+    </linearGradient>
+    <linearGradient id="card-gradient-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff006e" />
+      <stop offset="100%" stop-color="#ff5e78" />
+    </linearGradient>
+    <linearGradient id="card-gradient-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd166" />
+      <stop offset="100%" stop-color="#ffbe0b" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg-gradient)" rx="10" ry="10" />
+  
+  <!-- Abstract shapes -->
+  <circle cx="100" cy="50" r="30" fill="#3a86ff" opacity="0.2" />
+  <circle cx="700" cy="150" r="40" fill="#ff006e" opacity="0.2" />
+  <circle cx="200" cy="180" r="20" fill="#ffd166" opacity="0.2" />
+  <circle cx="600" cy="30" r="25" fill="#2b2d42" opacity="0.2" />
+  
+  <!-- Cards -->
+  <rect x="300" y="40" width="60" height="90" rx="6" ry="6" fill="url(#card-gradient-1)" />
+  <rect x="370" y="30" width="60" height="90" rx="6" ry="6" fill="url(#card-gradient-2)" />
+  <rect x="440" y="50" width="60" height="90" rx="6" ry="6" fill="url(#card-gradient-3)" />
+  
+  <!-- Card details -->
+  <rect x="310" y="70" width="40" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  <rect x="310" y="85" width="30" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  <rect x="310" y="100" width="40" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  
+  <rect x="380" y="60" width="40" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  <rect x="380" y="75" width="30" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  <rect x="380" y="90" width="40" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  
+  <rect x="450" y="80" width="40" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  <rect x="450" y="95" width="30" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+  <rect x="450" y="110" width="40" height="5" rx="2" ry="2" fill="white" opacity="0.6" />
+</svg>

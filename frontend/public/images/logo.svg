@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a86ff" />
+      <stop offset="100%" stop-color="#ff006e" />
+    </linearGradient>
+  </defs>
+  <path d="M30 10 L50 10 C55 10 60 15 60 20 L60 40 C60 45 55 50 50 50 L30 50 C25 50 20 45 20 40 L20 20 C20 15 25 10 30 10 Z" fill="url(#gradient)" />
+  <path d="M10 20 L15 20 C17.5 20 20 22.5 20 25 L20 35 C20 37.5 17.5 40 15 40 L10 40 C7.5 40 5 37.5 5 35 L5 25 C5 22.5 7.5 20 10 20 Z" fill="url(#gradient)" />
+  <text x="75" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#2b2d42">FinCard</text>
+</svg>

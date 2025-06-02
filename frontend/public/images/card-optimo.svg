@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="card-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a86ff" />
+      <stop offset="100%" stop-color="#4361ee" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="20" width="80" height="50" rx="6" ry="6" fill="url(#card-gradient)" />
+  <rect x="15" y="35" width="70" height="10" rx="2" ry="2" fill="#f7fafc" opacity="0.8" />
+  <rect x="15" y="50" width="40" height="5" rx="2" ry="2" fill="#f7fafc" opacity="0.6" />
+  <text x="15" y="30" font-family="Arial" font-size="7" font-weight="bold" fill="#f7fafc">OPTIMO</text>
+  <text x="70" y="65" font-family="Arial" font-size="8" font-weight="bold" fill="#f7fafc">FinCard</text>
+</svg>
