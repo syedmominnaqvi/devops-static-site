@@ -6,6 +6,5 @@ Dockerfile
 .github
 .gitignore
 README.md
-.env
 .env.test
 .env.local
