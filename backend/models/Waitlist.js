@@ -47,6 +47,7 @@ const Waitlist = sequelize.define('Waitlist', {
     allowNull: false
   }
 }, {
+    tableName: 'waitlists',
   timestamps: true
 });
 
